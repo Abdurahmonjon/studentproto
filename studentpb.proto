@@ -1,5 +1,6 @@
 syntax = "proto3";
 import "google/protobuf/empty.proto";
+package protos
 //option go_package = "github.com/Abdurahmonjon/studentproto";
 
 service StudentService{
