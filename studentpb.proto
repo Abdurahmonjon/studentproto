@@ -1,7 +1,6 @@
 syntax = "proto3";
-package  protos;
 import "google/protobuf/empty.proto";
-option go_package = "github.com/Abdurahmonjon/studentproto";
+//option go_package = "github.com/Abdurahmonjon/studentproto";
 
 service StudentService{
   rpc RegisterStudent(RegisterStudentRequest) returns (RegisterStudentResponse);
